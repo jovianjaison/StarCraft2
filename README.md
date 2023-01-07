@@ -19,10 +19,25 @@ The demo below shows a match between the RL agent (left) and a random bot (right
 
 ### Executing program
 
-* Download the StarCraftII game.
-* Download the Simple64 map and place it in the Maps folder of the game.
+* Download the StarCraft II game.
+* If not present already, in the StarCraft II folder create this folder structure Maps->Melee and place the Simple64 map file in there.
 * Install dependencies.
+
+```bash
+# Install requirements
+pip install -r requirements.txt
+```
+
 * Run the main.py file.
+
+
+```bash
+# Run rush bot
+python demo.py
+
+# Run DQN bot
+python main,py
+```
 
 ## Authors
 
